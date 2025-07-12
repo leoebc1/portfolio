@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Leonardo Barbosa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho/Navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção de Introdução/Início -->
+        <section id="inicio">
+            <div class="container">
+                <h1>LEONARDO BARBOSA</h1>
+                <p>Desenvolvedor, professor e fazedor de café</p>
+            </div>
+        </section>
+
+        <!-- Seção de Habilidades -->
+        <section id="habilidades">
+            <div class="container">
+                <h2>Minhas Habilidades</h2>
+
+                <div class="skills-container">
+                    <!-- Linguagens de Programação -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Linguagens de Programação</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">Java</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">TypeScript</div>
+                            <div class="skill-item">C</div>
+                            <div class="skill-item">C#</div>
+                            <div class="skill-item">Python</div>
+                        </div>
+                    </div>
+
+                    <!-- Banco de Dados -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-database"></i>
+                            <h3>Banco de Dados</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">SQL</div>
+                            <div class="skill-item">MySQL</div>
+                            <div class="skill-item">PostgreSQL</div>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                        </div>
+                    </div>
+
+                    <!-- Metodologias Ágeis -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-tasks"></i>
+                            <h3>Metodologias Ágeis</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">Scrum</div>
+                            <div class="skill-item">Kanban</div>
+                            <div class="skill-item">Sprints</div>
+                        </div>
+                    </div>
+
+                    <!-- Softskills -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-users"></i>
+                            <h3>Softskills</h3>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-item">Comunicação</div>
+                            <div class="skill-item">Docência</div>
+                            <div class="skill-item">Trabalho em Equipe</div>
+                            <div class="skill-item">Resolução de Problemas</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Projetos -->
+        <section id="projetos">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3>JamaicaFlix</h3>
+                        <p>Plataforma de streaming de filmes.</p>
+                        <a href="https://github.com/leoebc1/jamaicaflix" target="_blank">Ver Projeto</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Top 5 Músicas</h3>
+                        <p>Site sobre meu gosto musical.</p>
+                        <a href="https://github.com/leoebc1/musicasFrontEnd" target="_blank">Ver Projeto</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Portfólio</h3>
+                        <p>Código desta página.</p>
+                        <a href="https://github.com/leoebc1/portfolio" target="_blank">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form id="form-contato">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portfólio Leonardo Barbosa</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
